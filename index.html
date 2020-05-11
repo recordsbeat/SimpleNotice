@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>SimpleNotice</title>
+
+  <meta name="author" content="recordsbeat">
+  <meta name="description" content="공지 게시물을 간편하게 공유하세요!">
+  <meta name="keywords" content="공지,간편공지,카톡공유, 카톡공지">
+  <meta name="image" content="/img/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SimpleNotice">
+  <meta property="og:description" content="공지 게시물을 간편하게 공유하세요!">
+  <meta property="og:image" content="/img/logo.png">
+  <meta property="og:url" content="https://simplenotice.site/">
+
+  <meta name="twitter:description" content="공지 게시물을 간편하게 공유하세요!">
+  <meta name="twitter:image" content="/img/twitter_profile_image.png">
+  <meta name="twitter:domain" content="SimpleNotice">
+
+  <!-- include jquery -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+  <!-- include libs stylesheets -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+
+  <!-- include summernote -->
+  <link rel="stylesheet" href="dist/summernote-bs4.css">
+  <script type="text/javascript" src="dist/summernote-bs4.js"></script>
+  <!-- include summernote-ko-KR -->
+  <script src="summernote-ko-KR.js"></script>
+
+  <link rel="stylesheet" href="examples/example.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link href="style.css" rel="stylesheet">
+
+  <script src="init.js"></script>
+
+  <!-- include kakao share -->
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+<!-- include google ads -->
+<script data-ad-client="ca-pub-4690538566985491" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <img class="logo" src="facebook_cover_photo_1.png">
+  <input class="title" type="text" name="title" placeholder="제목"/>
+  <div class="hiddentitle" ></div>
+  <div class="content">
+    <div class="summernote"></div>
+    <div class="completecontent"></div>
+  </div>
+  <div class="share">
+  <span id="save">저장하기</span>
+  <span id="kakao-link-btn" href="javascript:sendLink()">
+    <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
+    <br>
+    <span>공유하기</span>
+  </span>
+  </div>
+  <ins class="kakao_ad_area" style="display:none;"
+   data-ad-unit    = "DAN-1jei8fuk70hno"
+   data-ad-width   = "320"
+   data-ad-height  = "100"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+</div>
+</body>
+</html>

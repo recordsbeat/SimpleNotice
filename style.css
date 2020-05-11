@@ -1,0 +1,77 @@
+/*
+::-webkit-scrollbar{width: 16px;}
+::-webkit-scrollbar-track {background-color:#34495E;}
+::-webkit-scrollbar-thumb {background-color:#F1C40F;border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover {background: #F1C40F;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+width:16px;height:16px;background:#F1C40F;}
+*/
+body{
+  background: #34495E;
+  margin:auto;
+
+}
+div{
+  display : block;
+}
+
+.container{
+  text-align:center;
+  margin-top:50px;
+}
+.logo{
+  width:100%;
+  cursor: pointer;
+}
+.title{
+  padding-left: 5px;
+  width:100%;
+  margin-top:50px;
+}
+.hiddentitle{
+  background-color:white;
+  border-radius:15px;
+  padding-left: 5px;
+  z-index: 999;
+  margin-top:50px;
+  height:30px;
+  width:100%;
+  font-size: 20px;
+  display: none;
+  overflow: auto;
+}
+.content{
+  text-align:left;
+  margin-top:20px;
+}
+.completecontent{
+  z-index: 999;
+  border-radius:15px;
+  background-color:white;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-top:20px;
+  height:500px;
+  width:100%;
+  display: none;
+  overflow: scroll;
+}
+.share{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+.share span{
+  margin:10px auto;
+  color : #F1C40F;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+#kakao-link-btn{
+  display: none;
+}
+.bottom{
+  margin-top: 20px;
+  height:10px;
+  margin-bottom: 20px;
+}
